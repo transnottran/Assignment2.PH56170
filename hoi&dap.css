@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url(banner.png);
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 20%;
+    
+}
+footer{
+   width: 100%;
+  height: 60px;
+  background-image: linear-gradient(rgb(167, 149, 231),rgb(116, 7, 240));
+  clear: both;
+position: fixed;
+bottom: 0px;
+text-align: center;
+padding-top: 10px;
+color: lavenderblush;
+font-weight: bold;
+}
+.mainmenu {
+    display: flex;
+    float: left;
+  }
+  .mainmenu > li {
+    list-style-type: none;
+  }
+  .menungang>.mainmenu>li>a{
+    padding: 40px;
+  }
+  nav.menungang {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(103, 17, 240);
+    position: fixed;
+    top: 0;
+    padding-top: 10px;
+    padding-left: 180px;
+  }
+  .mainmenu li>a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-variant: small-caps;
+    font-weight: 10px;
+    text-align: center;
+    bottom: 10px;
+    top: 30px;
+  }  
+  .mainmenu>li{
+    margin: 0px 10px ;
+}
+
+  .submenu > li {
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: 10px;
+    color: white;
+    padding: 20px 10px 0px 35px;
+   
+  }
+  
+  .submenu {
+    background-color:  rgb(103, 17, 240);
+    width: 170px;
+    height: 90px;
+    display: none;
+    box-shadow: 0 0  20px  rgb(103, 17, 240);
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    position: absolute;
+  }
+  .menungang>.mainmenu>li>a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+  }
+  .mainmenu li:hover > .submenu {
+    display: block;
+  }
+  .submenu>li>a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+  }
+  article{
+    background-color: aliceblue;
+    width: 100%;
+    height: 1000px;
+    
+  display: flex;
+  float: left;
+  }
+  .form{
+    padding-bottom: 50px;
+    top: 350px;
+    padding-left: 110px;
+    padding-top: 70px;
+    
+  }
+  form>p{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(52, 89, 158);
+    padding-bottom: 50px;
+    margin-top: 0px;
+  }
+  form{
+    background-color: lavender ;
+    font-size: 25px;
+    padding: 10px;
+    width: 1050px;
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(37, 58, 78);
+  }
+  #name{
+    width: 80%;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    padding-right: 15px;
+  }
+  #email{
+    width: 80%;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 85px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    padding-right: 10px;
+  }
+
+  #sdt{
+    width: 80%;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 175px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    padding-right: 10px;
+  }
+  #problem{
+    width: 80%;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 170px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-right: 10px;
+  }
+  #noidung{
+    width: 80%;
+    height: 140px;
+    margin-left: 170px;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  #button{
+    height: 35px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 430px;
+    margin-bottom: 30px;
+    background-color: rgb(73, 62, 230);
+    color: white;
+    border-color: rgb(115, 80, 155);
+    font-size: 20px;
+    font-family: cursive;
+  }
+  form{
+    border: 5px solid dodgerblue;
+  }

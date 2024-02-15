@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url(banner.png);
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 20%;
+    
+}
+footer{
+   width: 100%;
+  height: 60px;
+  background-image: linear-gradient(rgb(167, 149, 231),rgb(116, 7, 240));
+  clear: both;
+position: fixed;
+bottom: 0px;
+text-align: center;
+padding-top: 10px;
+color: lavenderblush;
+font-weight: bold;
+}
+.mainmenu {
+    display: flex;
+    float: left;
+  }
+  .mainmenu > li {
+    list-style-type: none;
+  }
+  .menungang>.mainmenu>li>a{
+    padding: 40px;
+  }
+  nav.menungang {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(103, 17, 240);
+    position: fixed;
+    top: 0;
+    padding-top: 10px;
+    padding-left: 180px;
+  }
+  .mainmenu li>a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-variant: small-caps;
+    font-weight: 10px;
+    text-align: center;
+    bottom: 10px;
+    top: 30px;
+  }
+  .mainmenu>li{
+    margin: 0px 10px ;
+}
+  .submenu > li {
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: 10px;
+    color: white;
+    padding: 20px 10px 0px 35px;
+   
+  }
+  .submenu {
+    background-color:  rgb(103, 17, 240);
+    width: 170px;
+    height: 90px;
+    display: none;
+    box-shadow: 0 0  20px  rgb(103, 17, 240);
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    position: absolute;
+  }
+  .menungang>.mainmenu>li>a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+  }
+  .mainmenu li:hover > .submenu {
+    display: block;
+  }
+  .submenu>li>a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+  }
+  article{
+    padding: 30px 50px 150px 50px;
+        background-color: aliceblue;
+        font-size: larger;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgba(4, 7, 32, 0.87);
+        padding-bottom: 100px;
+      
+  }
+  .gthngang{
+    padding-bottom: 40px;
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    padding-top: 15px;
+    margin-bottom: 50px;
+  }
+  .gthngang>a{
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 20px;
+    font-weight: initial;
+    font-size: larger;
+    color: rgb(30, 0, 201);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  }
+  .gthngang>a:hover{
+    color: cadetblue;
+    text-decoration: underline;
+  }
